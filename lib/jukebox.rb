@@ -26,7 +26,7 @@ def play(songs)
  elsif choice.to_i > 0 && choice.to_i < 10
   puts "Playing #{songs[choice.to_i - 1]}"
  else
-  puts "Invald input, please try again"
+  puts "Invalid input, please try again"
  end
 end
 
