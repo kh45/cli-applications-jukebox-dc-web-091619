@@ -20,8 +20,6 @@ end
 
 def play(songs)
  puts "Please enter a song name or number:"
- titles = songs.map{|item|
-  item.split("- ")[1]}
  choice = gets.strip
  if titles.include?(choice)
   puts "Playing #{choice}"
