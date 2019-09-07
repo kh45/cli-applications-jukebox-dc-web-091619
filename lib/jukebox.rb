@@ -24,7 +24,7 @@ def play(songs)
  if titles.include?(choice)
   puts "Playing #{choice}"
  elsif choice.to_i > 0 && choice.to_i < 10
-  puts "Playing #{titles[choice.to_i - 1]}"
+  puts "Playing #{songs[choice.to_i - 1]}"
  else
   puts "Invald input, please try again"
  end
